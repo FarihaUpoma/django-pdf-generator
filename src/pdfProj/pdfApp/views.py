@@ -12,4 +12,3 @@ from django.conf import settings
 
 class HelloPDFView(PDFTemplateView):
     template_name = 'hello.html'
-
