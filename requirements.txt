@@ -26,4 +26,3 @@ urllib3==1.22
 django-easy-pdf
 xhtml2pdf
 reportlab
-WeasyPrint
