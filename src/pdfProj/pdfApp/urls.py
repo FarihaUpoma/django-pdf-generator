@@ -18,5 +18,5 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    url('', views.HelloPDFView.as_view(), name = 'form'),
+    url('', views.html_to_pdf_view, name = 'form'),
 ]
